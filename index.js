@@ -2,6 +2,8 @@ $(document).ready(function() {
 	var dddown = false;
 	$(document).scroll(function () {
 		
+		// console.log($(document).scrollTop());
+
 		if (!dddown) {
 			WScroll = $(document).scrollTop();
 			DHeight = $(document).height();
@@ -13,11 +15,21 @@ $(document).ready(function() {
 			}
 		}
 
-		if ($(document).scrollTop() > 720) {
-			$(".change-color").css('color', '#1A1A1A');
+		if ($(document).width() >= 480) {
+			if ($(document).scrollTop() > 720) {
+				$(".change-color").css('color', '#1A1A1A');
+			}else{
+				$(".change-color").css('color', 'white');
+			}		
 		}else{
-			$(".change-color").css('color', 'white');
+			if ($(document).scrollTop() > 550) {
+				$(".change-color").css('color', '#1A1A1A');
+			}else{
+				$(".change-color").css('color', 'white');
+			}		
 		}
+
+
 	});
 
 	$(window).on('load', function () {
