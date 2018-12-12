@@ -193,6 +193,89 @@ p{
 
 /*=================================*/
 
+/*CARD*/
+
+/*=================================*/
+
+.card_box_container{
+	background: #FFFFFF;
+	box-shadow: 1px 2px 4px 0 rgba(0,0,0,0.50);
+	margin-bottom: 25px;
+	display: flex;
+	height: 276px;
+}
+
+.card_box_container .deco{
+	left: 6rem;
+}
+
+.leftbox_card{
+	width: 82%;
+	padding: 56px 60px 0px 60px;
+}
+
+.card_title{
+	font-size: 1.88rem;
+	letter-spacing: 0.31rem;
+	color: #1A1A1A;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.upper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card_time{
+	display: inline-flex;
+	align-items: center;
+	padding-right: 15px;
+}
+
+.card_time img{
+	display: flex;
+	height: 33px;
+	width: 33px;
+}
+
+.card_time p{
+	display: flex;
+	font-family: Abel;
+	font-size: 1.25rem;
+	letter-spacing: 0.09rem;
+	line-height: 2.19rem;
+	color: #1A1A1A;
+	margin-left: 1rem
+}
+
+.card_content{
+	margin-top: 20px;
+	font-size: 1.25rem;
+	letter-spacing: 0.09rem;
+	line-height: 2.19rem;
+	color: #1A1A1A;
+}
+
+.rightbox_card{
+	background-color: #FFD23F;
+	width: 18.1%;
+	cursor: pointer;
+}
+
+.rightbox_card p{
+	font-size: 1.25rem;
+	letter-spacing: 0.09rem;
+	line-height: 2.19rem;
+	color: #1A1A1A;
+
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+/*=================================*/
+
 /*ITINERARY 窄版*/
 
 /*=================================*/
@@ -496,6 +579,10 @@ p{
 	height: 2rem;
 	display: inline-block;
 	transform: skew(-30deg);
+}
+
+.mobile_last_line{
+	background-color: #3BCEAC;
 }
 
 #last_deco_bottom{

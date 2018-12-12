@@ -249,6 +249,87 @@ a{
 
 /*=================================*/
 
+/*CARD*/
+
+/*=================================*/
+
+.card{
+	padding: 40px 0px;
+}
+
+.card_container{
+	/*height: 200px;*/
+	padding: 0px 4.5%;
+}
+
+.card_box_container{
+	padding-top: 30px;
+	background: #FFFFFF;
+	box-shadow: 1px 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+.leftbox_card{
+	margin: 0px 8%;
+}
+
+.upper{
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+	margin-bottom: 17px;
+}
+
+.card_title{
+	display: inline-block;
+	font-weight: 600;
+	font-size: 15px;
+	color: #1A1A1A;
+	letter-spacing: 2.5px;
+}
+
+.card_content{
+	font-size: 11px;
+	color: #1A1A1A;
+	letter-spacing: 1px;
+	margin-bottom: 32px;
+}
+
+.card_time{
+	display: inline-flex;
+	align-items: center;
+	padding-right: 10px;
+}
+
+.card_time img{
+	display: flex;
+	width: 18px;
+	height: 18px;
+}
+
+.card_time p{
+	display: flex;
+	font-family: Abel;
+	margin-left: 1rem;
+	font-size: 11px;
+	color: #1A1A1A;
+	letter-spacing: 1px;	
+}
+
+.rightbox_card{
+	background-color: #FFD23F;
+
+}
+
+.rightbox_card p{
+	font-size: 11px;
+	color: #1A1A1A;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+/*=================================*/
+
 /*ITINERARY*/
 
 /*=================================*/
@@ -358,18 +439,18 @@ a{
 	background-color: #FFD23F;
 	transform: skew(40deg);
 	z-index: -1;
-	transition-duration: 0.4s;
+	transition-duration: 0.6s;
 }
 
 .iti_bt:hover > .ani_bg, .iti_bt:active > .ani_bg{
 	width: 13rem;
-	transition-duration: 0.4s;
+	transition-duration: 0.6s;
 	transition-delay: 0.1s;
 }
 
 .iti_bt:active > .ani_bg{
 	width: 13rem;
-	transition-duration: 0.4s;
+	transition-duration: 0.6s;
 	/*transition-delay: 0.4s;*/
 }
 
@@ -425,6 +506,19 @@ a{
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;	
 }
+
+.rightside:hover > .ani_bg, .rightside:active > .ani_bg{
+	width: 15rem;
+	transition-duration: 0.6s;
+	transition-delay: 0.1s;
+}
+
+.rightside:active > .ani_bg{
+	width: 15rem;
+	transition-duration: 0.6s;
+	/*transition-delay: 0.4s;*/
+}
+
 
 .last_action p{
 	font-size: 11px;
@@ -508,4 +602,6 @@ iframe{
 	z-index: 5 !important;
 }
 
-
+#iti-7 .iti_words{
+	margin-bottom: 10px;
+}
