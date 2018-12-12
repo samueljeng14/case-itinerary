@@ -23,15 +23,6 @@ html{
   display: none;
 }
 
--webkit-touch-callout: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-
--webkit-tap-highlight-color: transparent;
-
 section{
 	overflow: hidden;
 }
@@ -39,10 +30,22 @@ section{
 p{
 	margin: 0px;
 	padding: 0px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
 }
 
 a{
 	text-decoration: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;		
 }
 
 /*=================================*/
@@ -301,6 +304,7 @@ a{
 	border: 1px solid #FFD23F;
 	overflow: hidden;
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;	
 }
 
 .iti_bt p{
@@ -387,6 +391,7 @@ a{
 	border: 1px #FFD23F solid;
 	overflow: hidden;
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;	
 }
 
 .last_action p{
