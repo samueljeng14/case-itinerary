@@ -7,7 +7,7 @@
 	/*border: 1px solid rgb(21,32,40);*/
 	position: relative;
 	box-sizing: border-box;
-	-webkit-touch-callout: none;	
+	-webkit-touch-callout: none;
 }
 
 html, body{
@@ -203,6 +203,13 @@ a{
 	letter-spacing: 0.85px;
 	text-align: center;
 	padding-bottom: 5px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;		
 }
 
 .big_title{
@@ -212,7 +219,13 @@ a{
 	letter-spacing: 1px;
 	text-align: center;
 	padding-bottom: 10px;
-	
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;		
 }
 
 .note{
@@ -245,10 +258,6 @@ a{
 	background-size: cover;
 }
 
-.iti_rightbox, .iti_rightbox-w{
-	/*height: 150px;*/
-}
-
 .iti_title{
 	font-weight: 600;
 	font-size: 15px;
@@ -256,6 +265,13 @@ a{
 	letter-spacing: 2.5px;
 	text-align: center;
 	padding: 30px 0px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;		
 }
 
 .iti_words{
@@ -266,6 +282,13 @@ a{
 	margin-bottom: 60px;
 	padding: 7% 8% 6% 8%;
 	border: 1px #1A1A1A solid;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;		
 }
 
 .iti_foot{
@@ -274,6 +297,13 @@ a{
 	width: 160px;
 	margin-left: calc(100% - 160px);
 	padding-top: 20px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
 }
 
 .web_foot{
