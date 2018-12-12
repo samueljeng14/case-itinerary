@@ -23,6 +23,15 @@ html{
   display: none;
 }
 
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+-webkit-tap-highlight-color: transparent;
+
 section{
 	overflow: hidden;
 }
@@ -215,7 +224,7 @@ a{
 
 .note a{
 	font-family: NotoSansCJKtc-Regular;
-	font-size: 10px;
+	font-size: 9px;
 	color: #FFFFFF;
 	letter-spacing: 0.11px;
 	border-bottom: 1.5px #FFD23F dashed;	
@@ -237,7 +246,7 @@ a{
 }
 
 .iti_title{
-	font-family: NotoSansCJKtc-Bold;
+	font-weight: 600;
 	font-size: 15px;
 	color: #1A1A1A;
 	letter-spacing: 2.5px;
@@ -352,7 +361,7 @@ a{
 	font-size: 11px;
 	color: white;
 	letter-spacing: 0.9px;
-	font-weight: 200;
+	font-weight: 400;
 	line-height: 20px;
 	padding: 30px 40px;
 }
@@ -384,10 +393,17 @@ a{
 	font-size: 11px;
 	color: white;
 	letter-spacing: 0.9px;
-	font-weight: 200;
+	font-weight: 400;
 	text-align: center;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+
+
+#form{
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 iframe{
