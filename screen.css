@@ -7,6 +7,7 @@
 	/*border: 1px solid rgb(21,32,40);*/
 	position: relative;
 	box-sizing: border-box;
+	-webkit-touch-callout: none;	
 }
 
 html, body{
@@ -154,13 +155,13 @@ a{
 }
 
 .options{
-	width: 60px;
+	width: 50px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .options a{
-	font-size: 8px;
+	font-size: 10px;
 	text-decoration: none;
 	color: white;
 	letter-spacing: 0.07rem;
@@ -391,7 +392,8 @@ a{
 	border: 1px #FFD23F solid;
 	overflow: hidden;
 	cursor: pointer;
-	-webkit-tap-highlight-color: transparent;	
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;	
 }
 
 .last_action p{
