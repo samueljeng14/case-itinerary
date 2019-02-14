@@ -105,6 +105,7 @@ p{
 .leftbox{
 	width: 56%;
 	height: 430px;
+	padding: 0px 70px;
 }
 
 .rightbox{
@@ -118,7 +119,7 @@ p{
 }
 
 .subtitle{
-	font-size: 1.38rem;
+	font-size: 1rem;
 	letter-spacing: 0.11rem;
 	color: white;
 	font-weight: 100;
@@ -126,7 +127,7 @@ p{
 }
 
 .big_title{
-	font-size: 6.25rem;
+	font-size: 5rem;
 	letter-spacing: 0.07rem;
 	color: white;
 	font-weight: 700;
@@ -145,7 +146,7 @@ p{
 
 #intro_rightbox a{
 	display: block;
-	font-size: 1.88rem;
+	font-size: 1.3rem;
 	letter-spacing: 0.02rem;
 	line-height: 2.81rem;
 	color: white;
@@ -156,7 +157,7 @@ p{
 }
 
 #intro_rightbox a:hover{
-	font-weight: 700;
+	/*font-weight: 700;*/
 	color: #FFD23F;
 	transition-duration: 0.3s;
 	opacity: 1;
@@ -172,6 +173,7 @@ p{
 	letter-spacing: 0.01rem;
 	color: white;
 	font-weight: 200;
+	padding: 0px 100px;
 }
 
 .note a{
@@ -186,7 +188,7 @@ p{
 
 .note a:hover{
 	border-bottom: 3px #FFD23F solid;
-	font-weight: 700;
+	/*font-weight: 500;*/
 	color: #FFD23F;
 }
 
@@ -216,7 +218,7 @@ p{
 
 .card_title{
 	font-size: 1.88rem;
-	letter-spacing: 0.31rem;
+	letter-spacing: 0.1rem;
 	color: #1A1A1A;
 	font-weight: 700;
 	display: inline-block;
@@ -252,9 +254,10 @@ p{
 .card_content{
 	margin-top: 20px;
 	font-size: 1.25rem;
-	letter-spacing: 0.09rem;
+	/*letter-spacing: 0.09rem;*/
 	line-height: 2.19rem;
 	color: #1A1A1A;
+	text-align: justify;
 }
 
 .rightbox_card{
@@ -285,14 +288,14 @@ p{
 }
 
 .iti_leftbox{
-	height: 560px;
+	height: 600px;
 	width: 43%;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .iti_rightbox{
-	height: 560px;
+	height: 600px;
 	width: 56%;
 	border: 3px black solid;
 }
@@ -303,18 +306,19 @@ p{
 }
 
 .iti_title{
-	font-size: 1.88rem;
-	letter-spacing: 0.31rem;
+	font-size: 1.6rem;
+	/*letter-spacing: 0.31rem;*/
 	color: #1A1A1A;
 	font-weight: 700;
 }
 
 .iti_words{
-	margin-top: 5rem;
+	margin-top: 3rem;
 	font-size: 1.25rem;
-	letter-spacing: 0.09rem;
+	/*letter-spacing: 0.09rem;*/
 	line-height: 2.19rem;
 	color: #1A1A1A;
+	text-align: justify;
 }
 
 .mobile_foot{
@@ -362,15 +366,17 @@ p{
 }
 
 .iti_bt p{
-	font-size: 1.25rem;
-	letter-spacing: 0.72rem;
-	line-height: 1.81rem;
+	font-size: 1.2rem;
+	letter-spacing: 0.2rem;
+	/*line-height: 1.81rem;*/
 	color: #1A1A1A;
-	text-align: center ;
-	margin-left: 0.72rem;
+	text-align: center;
+	margin-left: 0.2rem;
 	top: 50%;
 	transform: translateY(-50%);
 	font-weight: 500;
+	cursor: pointer;
+
 }
 
 .ani_bg{
@@ -425,14 +431,14 @@ p{
 /*=================================*/
 
 .iti_leftbox-w{
-	height: 560px;
+	height: 600px;
 	width: 56%;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .iti_rightbox-w{
-	height: 560px;
+	height: 600px;
 	width: 43%;
 	border: 3px black solid;
 }
@@ -452,9 +458,10 @@ p{
 	border: 3px black solid;
 	padding: 4% 5%;
 	font-size: 1.25rem;
-	letter-spacing: 0.09rem;
+	/*letter-spacing: 0.09rem;*/
 	line-height: 2.19rem;
 	color: #1A1A1A;
+	text-align: justify;
 }
 
 .last_action{
@@ -697,4 +704,6 @@ p{
 	text-decoration: none;
 	color: white;
 	letter-spacing: 0.07rem;
+	cursor: pointer;
+	
 }
