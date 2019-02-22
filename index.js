@@ -9,6 +9,7 @@ $(document).ready(function() {
 			DHeight = $(document).height();
 			VHeight = $(window).height();
 			Deep = DHeight - VHeight - WScroll;
+			// console.log(Deep);
 			if (Deep <= 50) {
 				$(".keyreply-launcher").click();
 				dddown = true;
@@ -16,13 +17,13 @@ $(document).ready(function() {
 		}
 
 		if ($(document).width() >= 480) {
-			if ($(document).scrollTop() > 720) {
+			if ($(document).scrollTop() > 680) {
 				$(".change-color").css('color', '#1A1A1A');
 			}else{
 				$(".change-color").css('color', 'white');
 			}		
 		}else{
-			if ($(document).scrollTop() > 550) {
+			if ($(document).scrollTop() > 302) {
 				$(".change-color").css('color', '#1A1A1A');
 			}else{
 				$(".change-color").css('color', 'white');

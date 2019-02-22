@@ -38,6 +38,11 @@ section{
 p{
 	margin: 0px;
 }
+
+a{
+	text-decoration: none;
+}
+
 /*=================================*/
 
 /*定位用*/
@@ -257,9 +262,13 @@ p{
 	color: #1A1A1A;
 }
 
+.a_container{
+	width: 18.1%;
+}
+
 .rightbox_card{
 	background-color: #FFD23F;
-	width: 18.1%;
+	height: 100%;
 	cursor: pointer;
 }
 
@@ -268,7 +277,7 @@ p{
 	letter-spacing: 0.09rem;
 	line-height: 2.19rem;
 	color: #1A1A1A;
-
+	text-decoration: none;
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
@@ -472,9 +481,13 @@ p{
 	border-right: none;
 }
 
+.last_a_container{
+	width: 30%;
+	height: 100%;
+}
+
 .rightside{
 	height: 100%;
-	width: 30%;
 	border: 3px #FFD23F solid;
 	overflow: hidden;
 	cursor: pointer;

@@ -485,7 +485,7 @@ a{
 .last_action{
 	padding-bottom: 2rem;
 	display: flex;
-	width: 80%;
+	width: calc(100% - 100px);
 	height: 4rem;
 	align-items: center;
 }
@@ -497,9 +497,13 @@ a{
 	border-right: none;
 }
 
-.rightside{
+.last_a_container{
 	height: 100%;
 	width: 50%;
+}
+
+.rightside{
+	height: 100%;
 	border: 1px #FFD23F solid;
 	overflow: hidden;
 	cursor: pointer;
