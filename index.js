@@ -1,5 +1,19 @@
 $(document).ready(function() {
 	var dddown = false;
+
+	setTimeout(function(){
+		$("html , body").css('overflow', 'visible');
+		$(".loading").css('opacity', '0');
+		$(".sk-cube-grid").css('opacity', '0');
+	}, 5000);
+
+	setTimeout(function(){
+		$(".loading").css('display', 'none');			
+	}, 8200);
+
+
+
+
 	$(document).scroll(function () {
 		
 		// console.log($(document).scrollTop());
